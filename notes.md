@@ -72,6 +72,7 @@ LOCAL SETUP
 	
 2. login to your heroku account
  	* generate ssh key for $ecurity
+ 	* complete unique and allows heroku to know that you are indeed *you*
  	
 APP
 
@@ -86,7 +87,7 @@ QUESTIONS
 
 ---
 `heroku restart` 
-Restarts your app on heroku the same way you ctrl+c in terminal and restart your rails server
+Restarts your app on heroku the same way you ctrl+c in terminal and restart your rails server, does not restart or reset your database
 
 TROUBLESHOOTING
 
@@ -99,6 +100,7 @@ TROUBLESHOOTING
 * heroku logs (last 100)
 * heroku logs -n 1500 (last 1500)
 * for anything more than that use an add-on
+
 
 
 ###Limitations
